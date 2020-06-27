@@ -24,4 +24,4 @@ If a match is found, the card will lay face up and add 10 pts to the starting sc
 - CSS
 - JavaScript
 - jQuery
-  -Flex-box
+- Flex-box
