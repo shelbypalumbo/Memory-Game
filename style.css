@@ -7,7 +7,6 @@ body {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  height: flex;
   display: flex;
   flex-wrap: wrap;
   border-radius: 10px;
