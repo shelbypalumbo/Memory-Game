@@ -16,7 +16,7 @@ If a match is found, the card will lay face up and add 10 pts to the starting sc
 
 ### Board View
 
-![Main View](board.png)
+![Main View](memorygame.gif)
 
 ## Technologies Used
 
