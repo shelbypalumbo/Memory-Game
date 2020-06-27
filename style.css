@@ -1,0 +1,105 @@
+body {
+  background-color: rgb(245, 217, 166);
+}
+
+.board-container {
+  background-color: white;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: flex;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  justify-content: space-evenly;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 90%;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: rgb(247, 205, 127);
+  transform: scale(1);
+  position: relative;
+  width: 22%;
+  height: 120px;
+  display: flex;
+  text-align: center;
+  margin: 1%;
+  justify-content: space-between;
+  display: block;
+  border: 3px solid orange;
+  border-radius: 5px;
+}
+
+.front,
+.back {
+  border-radius: 5px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition-duration: 500ms;
+  transition-property: background;
+  transition-timing-function: ease-in-out;
+}
+
+.back {
+  display: none;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  border-color: rgb(192, 174, 70);
+}
+
+.new-game {
+  width: 20%;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: orange;
+  border: none;
+  color: white;
+}
+
+.new-game:hover {
+  opacity: 0.7;
+}
+
+.game-data {
+  width: 100%;
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.score {
+  margin-right: 60px;
+  font-weight: bold;
+}
+
+.matched {
+  display: block;
+  color: white;
+  background-color: rgb(39, 194, 39);
+}
+
+.noMatch {
+  display: block;
+  color: white;
+  background-color: red;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
