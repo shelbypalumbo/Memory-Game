@@ -2,7 +2,7 @@
 
 A memory game built using Flexbox and jQuery.
 
-Deployed Application:
+Deployed Application: https://shelbypalumbo.github.io/Memory-Game/
 
 ## User Story
 
