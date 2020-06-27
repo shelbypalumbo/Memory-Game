@@ -1,6 +1,6 @@
 # Memory-Game
 
-A memory game built using Flexbox and jQuery.
+A memory game built using Flex-box and jQuery.
 
 Deployed Application: https://shelbypalumbo.github.io/Memory-Game/
 
@@ -22,6 +22,6 @@ If a match is found, the card will lay face up and add 10 pts to the starting sc
 
 - HTML
 - CSS
-- Javascript
+- JavaScript
 - jQuery
   -Flex-box
