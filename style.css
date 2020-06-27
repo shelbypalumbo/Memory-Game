@@ -25,7 +25,7 @@ body {
   background-color: rgb(247, 205, 127);
   transform: scale(1);
   position: relative;
-  width: 22%;
+  width: 21%;
   height: 120px;
   display: flex;
   text-align: center;
@@ -57,7 +57,7 @@ body {
 }
 
 .new-game {
-  width: 20%;
+  width: 100px;
   border-radius: 5px;
   padding: 10px;
   font-size: 20px;
